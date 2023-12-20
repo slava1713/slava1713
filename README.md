@@ -17,9 +17,14 @@ class MachineLearningEngineer:
     def say_hi(self):
         print("Thanks for dropping by, hope you find some of my work interesting.")
 
+def main():
+    me = MachineLearningEngineer()
+    me.say_hi()
 
-me = MachineLearningEngineer()
-me.say_hi()
+
+if __name__ == "__main__":
+    main()
+    
 ```
 ## My Skills
 
